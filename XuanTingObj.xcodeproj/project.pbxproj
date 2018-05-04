@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24DFC07DCB9D156B7D16D067 /* libPods-XuanTingObj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3776EE7BCE7C78F99E7C4465 /* libPods-XuanTingObj.a */; };
+		FE93F267209AA1DF00B5B808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93F266209AA1DF00B5B808 /* AppDelegate.m */; };
+		FE93F26F209AA1E000B5B808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE93F26E209AA1E000B5B808 /* Assets.xcassets */; };
+		FE93F272209AA1E000B5B808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE93F270209AA1E000B5B808 /* LaunchScreen.storyboard */; };
+		FE93F275209AA1E000B5B808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93F274209AA1E000B5B808 /* main.m */; };
+		FE93F27F209AA1E000B5B808 /* XuanTingObjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93F27E209AA1E000B5B808 /* XuanTingObjTests.m */; };
+		FE93F28A209AA1E000B5B808 /* XuanTingObjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93F289209AA1E000B5B808 /* XuanTingObjUITests.m */; };
+		FE93F299209AA25000B5B808 /* HoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE93F298209AA25000B5B808 /* HoverView.swift */; };
+		FE93F29E209AA32000B5B808 /* TopHoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93F29D209AA32000B5B808 /* TopHoverView.m */; };
+		FE93F2A0209AA35500B5B808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE93F29F209AA35500B5B808 /* Main.storyboard */; };
+		FE93F2A3209AA36A00B5B808 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93F2A1209AA36A00B5B808 /* ViewController.m */; };
+		FE93F2A7209AA38400B5B808 /* HomeNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE93F2A4209AA38300B5B808 /* HomeNavView.xib */; };
+		FE93F2A8209AA38400B5B808 /* HomeNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93F2A5209AA38300B5B808 /* HomeNavView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE93F27B209AA1E000B5B808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE93F25A209AA1DF00B5B808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE93F261209AA1DF00B5B808;
+			remoteInfo = XuanTingObj;
+		};
+		FE93F286209AA1E000B5B808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE93F25A209AA1DF00B5B808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE93F261209AA1DF00B5B808;
+			remoteInfo = XuanTingObj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3776EE7BCE7C78F99E7C4465 /* libPods-XuanTingObj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XuanTingObj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EEE20394824ECB178C5F5C /* Pods-XuanTingObj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XuanTingObj.release.xcconfig"; path = "Pods/Target Support Files/Pods-XuanTingObj/Pods-XuanTingObj.release.xcconfig"; sourceTree = "<group>"; };
+		97400C58ACDB48A5A6F80ED5 /* Pods-XuanTingObj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XuanTingObj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XuanTingObj/Pods-XuanTingObj.debug.xcconfig"; sourceTree = "<group>"; };
+		FE93F262209AA1DF00B5B808 /* XuanTingObj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XuanTingObj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE93F265209AA1DF00B5B808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE93F266209AA1DF00B5B808 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE93F26E209AA1E000B5B808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE93F271209AA1E000B5B808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE93F273209AA1E000B5B808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE93F274209AA1E000B5B808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE93F27A209AA1E000B5B808 /* XuanTingObjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XuanTingObjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE93F27E209AA1E000B5B808 /* XuanTingObjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuanTingObjTests.m; sourceTree = "<group>"; };
+		FE93F280209AA1E000B5B808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE93F285209AA1E000B5B808 /* XuanTingObjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XuanTingObjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE93F289209AA1E000B5B808 /* XuanTingObjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuanTingObjUITests.m; sourceTree = "<group>"; };
+		FE93F28B209AA1E000B5B808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE93F298209AA25000B5B808 /* HoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoverView.swift; sourceTree = "<group>"; };
+		FE93F29A209AA26600B5B808 /* XuanTingObj-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XuanTingObj-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE93F29C209AA32000B5B808 /* TopHoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopHoverView.h; sourceTree = "<group>"; };
+		FE93F29D209AA32000B5B808 /* TopHoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopHoverView.m; sourceTree = "<group>"; };
+		FE93F29F209AA35500B5B808 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FE93F2A1209AA36A00B5B808 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE93F2A2209AA36A00B5B808 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE93F2A4209AA38300B5B808 /* HomeNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeNavView.xib; sourceTree = "<group>"; };
+		FE93F2A5209AA38300B5B808 /* HomeNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNavView.m; sourceTree = "<group>"; };
+		FE93F2A6209AA38400B5B808 /* HomeNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNavView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE93F25F209AA1DF00B5B808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DFC07DCB9D156B7D16D067 /* libPods-XuanTingObj.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE93F277209AA1E000B5B808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE93F282209AA1E000B5B808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A344AFDFCA3F7E28EE0FB56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3776EE7BCE7C78F99E7C4465 /* libPods-XuanTingObj.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55FC7AD6736D453BE35A9218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97400C58ACDB48A5A6F80ED5 /* Pods-XuanTingObj.debug.xcconfig */,
+				60EEE20394824ECB178C5F5C /* Pods-XuanTingObj.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE93F259209AA1DF00B5B808 = {
+			isa = PBXGroup;
+			children = (
+				FE93F264209AA1DF00B5B808 /* XuanTingObj */,
+				FE93F27D209AA1E000B5B808 /* XuanTingObjTests */,
+				FE93F288209AA1E000B5B808 /* XuanTingObjUITests */,
+				FE93F263209AA1DF00B5B808 /* Products */,
+				55FC7AD6736D453BE35A9218 /* Pods */,
+				2A344AFDFCA3F7E28EE0FB56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE93F263209AA1DF00B5B808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE93F262209AA1DF00B5B808 /* XuanTingObj.app */,
+				FE93F27A209AA1E000B5B808 /* XuanTingObjTests.xctest */,
+				FE93F285209AA1E000B5B808 /* XuanTingObjUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE93F264209AA1DF00B5B808 /* XuanTingObj */ = {
+			isa = PBXGroup;
+			children = (
+				FE93F298209AA25000B5B808 /* HoverView.swift */,
+				FE93F2A6209AA38400B5B808 /* HomeNavView.h */,
+				FE93F2A5209AA38300B5B808 /* HomeNavView.m */,
+				FE93F2A4209AA38300B5B808 /* HomeNavView.xib */,
+				FE93F29A209AA26600B5B808 /* XuanTingObj-Bridging-Header.h */,
+				FE93F29B209AA32000B5B808 /* TopHover */,
+				FE93F265209AA1DF00B5B808 /* AppDelegate.h */,
+				FE93F266209AA1DF00B5B808 /* AppDelegate.m */,
+				FE93F2A2209AA36A00B5B808 /* ViewController.h */,
+				FE93F2A1209AA36A00B5B808 /* ViewController.m */,
+				FE93F29F209AA35500B5B808 /* Main.storyboard */,
+				FE93F26E209AA1E000B5B808 /* Assets.xcassets */,
+				FE93F270209AA1E000B5B808 /* LaunchScreen.storyboard */,
+				FE93F273209AA1E000B5B808 /* Info.plist */,
+				FE93F274209AA1E000B5B808 /* main.m */,
+			);
+			path = XuanTingObj;
+			sourceTree = "<group>";
+		};
+		FE93F27D209AA1E000B5B808 /* XuanTingObjTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE93F27E209AA1E000B5B808 /* XuanTingObjTests.m */,
+				FE93F280209AA1E000B5B808 /* Info.plist */,
+			);
+			path = XuanTingObjTests;
+			sourceTree = "<group>";
+		};
+		FE93F288209AA1E000B5B808 /* XuanTingObjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE93F289209AA1E000B5B808 /* XuanTingObjUITests.m */,
+				FE93F28B209AA1E000B5B808 /* Info.plist */,
+			);
+			path = XuanTingObjUITests;
+			sourceTree = "<group>";
+		};
+		FE93F29B209AA32000B5B808 /* TopHover */ = {
+			isa = PBXGroup;
+			children = (
+				FE93F29C209AA32000B5B808 /* TopHoverView.h */,
+				FE93F29D209AA32000B5B808 /* TopHoverView.m */,
+			);
+			path = TopHover;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE93F261209AA1DF00B5B808 /* XuanTingObj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE93F28E209AA1E000B5B808 /* Build configuration list for PBXNativeTarget "XuanTingObj" */;
+			buildPhases = (
+				F7BDB554A2AE3A4C1E9783A4 /* [CP] Check Pods Manifest.lock */,
+				FE93F25E209AA1DF00B5B808 /* Sources */,
+				FE93F25F209AA1DF00B5B808 /* Frameworks */,
+				FE93F260209AA1DF00B5B808 /* Resources */,
+				8BC9F76350E481C5CC8E6889 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XuanTingObj;
+			productName = XuanTingObj;
+			productReference = FE93F262209AA1DF00B5B808 /* XuanTingObj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE93F279209AA1E000B5B808 /* XuanTingObjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE93F291209AA1E000B5B808 /* Build configuration list for PBXNativeTarget "XuanTingObjTests" */;
+			buildPhases = (
+				FE93F276209AA1E000B5B808 /* Sources */,
+				FE93F277209AA1E000B5B808 /* Frameworks */,
+				FE93F278209AA1E000B5B808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE93F27C209AA1E000B5B808 /* PBXTargetDependency */,
+			);
+			name = XuanTingObjTests;
+			productName = XuanTingObjTests;
+			productReference = FE93F27A209AA1E000B5B808 /* XuanTingObjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE93F284209AA1E000B5B808 /* XuanTingObjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE93F294209AA1E000B5B808 /* Build configuration list for PBXNativeTarget "XuanTingObjUITests" */;
+			buildPhases = (
+				FE93F281209AA1E000B5B808 /* Sources */,
+				FE93F282209AA1E000B5B808 /* Frameworks */,
+				FE93F283209AA1E000B5B808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE93F287209AA1E000B5B808 /* PBXTargetDependency */,
+			);
+			name = XuanTingObjUITests;
+			productName = XuanTingObjUITests;
+			productReference = FE93F285209AA1E000B5B808 /* XuanTingObjUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE93F25A209AA1DF00B5B808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "袁书辉";
+				TargetAttributes = {
+					FE93F261209AA1DF00B5B808 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FE93F279209AA1E000B5B808 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FE93F261209AA1DF00B5B808;
+					};
+					FE93F284209AA1E000B5B808 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FE93F261209AA1DF00B5B808;
+					};
+				};
+			};
+			buildConfigurationList = FE93F25D209AA1DF00B5B808 /* Build configuration list for PBXProject "XuanTingObj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE93F259209AA1DF00B5B808;
+			productRefGroup = FE93F263209AA1DF00B5B808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE93F261209AA1DF00B5B808 /* XuanTingObj */,
+				FE93F279209AA1E000B5B808 /* XuanTingObjTests */,
+				FE93F284209AA1E000B5B808 /* XuanTingObjUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE93F260209AA1DF00B5B808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE93F2A0209AA35500B5B808 /* Main.storyboard in Resources */,
+				FE93F2A7209AA38400B5B808 /* HomeNavView.xib in Resources */,
+				FE93F272209AA1E000B5B808 /* LaunchScreen.storyboard in Resources */,
+				FE93F26F209AA1E000B5B808 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE93F278209AA1E000B5B808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE93F283209AA1E000B5B808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BC9F76350E481C5CC8E6889 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XuanTingObj/Pods-XuanTingObj-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XuanTingObj/Pods-XuanTingObj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7BDB554A2AE3A4C1E9783A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XuanTingObj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE93F25E209AA1DF00B5B808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE93F299209AA25000B5B808 /* HoverView.swift in Sources */,
+				FE93F29E209AA32000B5B808 /* TopHoverView.m in Sources */,
+				FE93F275209AA1E000B5B808 /* main.m in Sources */,
+				FE93F267209AA1DF00B5B808 /* AppDelegate.m in Sources */,
+				FE93F2A3209AA36A00B5B808 /* ViewController.m in Sources */,
+				FE93F2A8209AA38400B5B808 /* HomeNavView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE93F276209AA1E000B5B808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE93F27F209AA1E000B5B808 /* XuanTingObjTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE93F281209AA1E000B5B808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE93F28A209AA1E000B5B808 /* XuanTingObjUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE93F27C209AA1E000B5B808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE93F261209AA1DF00B5B808 /* XuanTingObj */;
+			targetProxy = FE93F27B209AA1E000B5B808 /* PBXContainerItemProxy */;
+		};
+		FE93F287209AA1E000B5B808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE93F261209AA1DF00B5B808 /* XuanTingObj */;
+			targetProxy = FE93F286209AA1E000B5B808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE93F270209AA1E000B5B808 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE93F271209AA1E000B5B808 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE93F28C209AA1E000B5B808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = XuanTingObj;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FE93F28D209AA1E000B5B808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XuanTingObj;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE93F28F209AA1E000B5B808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97400C58ACDB48A5A6F80ED5 /* Pods-XuanTingObj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = XuanTingObj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.XuanTingObj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XuanTingObj/XuanTingObj-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE93F290209AA1E000B5B808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EEE20394824ECB178C5F5C /* Pods-XuanTingObj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = XuanTingObj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.XuanTingObj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XuanTingObj/XuanTingObj-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE93F292209AA1E000B5B808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = XuanTingObjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.XuanTingObjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XuanTingObj.app/XuanTingObj";
+			};
+			name = Debug;
+		};
+		FE93F293209AA1E000B5B808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = XuanTingObjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.XuanTingObjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XuanTingObj.app/XuanTingObj";
+			};
+			name = Release;
+		};
+		FE93F295209AA1E000B5B808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = XuanTingObjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.XuanTingObjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XuanTingObj;
+			};
+			name = Debug;
+		};
+		FE93F296209AA1E000B5B808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = XuanTingObjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.XuanTingObjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XuanTingObj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE93F25D209AA1DF00B5B808 /* Build configuration list for PBXProject "XuanTingObj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE93F28C209AA1E000B5B808 /* Debug */,
+				FE93F28D209AA1E000B5B808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE93F28E209AA1E000B5B808 /* Build configuration list for PBXNativeTarget "XuanTingObj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE93F28F209AA1E000B5B808 /* Debug */,
+				FE93F290209AA1E000B5B808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE93F291209AA1E000B5B808 /* Build configuration list for PBXNativeTarget "XuanTingObjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE93F292209AA1E000B5B808 /* Debug */,
+				FE93F293209AA1E000B5B808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE93F294209AA1E000B5B808 /* Build configuration list for PBXNativeTarget "XuanTingObjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE93F295209AA1E000B5B808 /* Debug */,
+				FE93F296209AA1E000B5B808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE93F25A209AA1DF00B5B808 /* Project object */;
+}
